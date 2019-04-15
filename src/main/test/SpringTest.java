@@ -35,11 +35,7 @@ public class SpringTest{
 		repository.delete(found);
         
     }
-    @Test
-    public void helloYouTest(){
-        System.out.println("Onko kesä koittanut");
-    }
-    
+  
     @Test
     public void springTest(){
        System.out.println("Is it already spring?");
